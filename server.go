@@ -7,6 +7,7 @@ import (
 	"net/http"
 )
 
+var tmpl *template.Template
 
 
 
