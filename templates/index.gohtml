@@ -8,13 +8,17 @@
     <title>GOsite</title>
 </head>
 <body>
+    {{template "header-template"}}
+    
     <h1>{{ .Title }}</h1>
 
-    <h2>
+    
     {{range .Body}}
-    {{.}}      
+    <p>
+    {{. }}
+    </p>
     {{end}}
-    </h2>
+    
    
     <h3>{{.Footer}}</h3>
 
